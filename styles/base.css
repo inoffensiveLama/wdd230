@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Open+Sans:wght@300;700&family=Oswald:wght@300&display=swap');
+
+body {
+    background-color: #3C3D42;
+    color: #DFF3E3;
+    font-family: "Open Sans", "Cutive Mono", Lato, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    font-size: medium;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    background-color: #11270B;
+}
+
+header h1 {
+    flex: 1;
+}
+
+#profileImage {
+    max-width: 120px;
+}
+
+nav {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+nav a {
+    text-align: center;
+    color: #DFF3E3;
+    text-decoration: none;
+    padding: 2px;
+    transition: all .5s ease;
+    float: right;
+    width: 100%;
+}
+
+#activePage {
+    background-color: #EFAF8E ;
+    color: #11270B;
+}
+
+main {
+    padding: 5px;
+}
+
+.card {
+    border-style: solid;
+    border-color: #DFF3E3;
+    border-width: 1px;
+    border-radius: 5px;
+    margin: 10px;
+    text-decoration: none;
+    box-shadow: 5px 5px #000000;
+}
+
+.card p {
+    text-align: center;
+}
+
+.card ul {
+    list-style-type: none;
+}
+
+.card a {
+    color: #DFF3E3;
+}
+
+.card h3 {
+    background-color: #EFAF8E;
+    color: #11270B;
+    margin: 0%;
+    border-radius: 4px 4px 0 0;
+}
+
+footer {
+    background-color: #11270B;
+    margin: 0;
+    padding: 5px;
+}
