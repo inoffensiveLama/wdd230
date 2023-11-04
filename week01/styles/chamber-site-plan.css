@@ -1,0 +1,76 @@
+:root {
+    --primary: #131B1C;
+    --secondary: #FFFAFF;
+    --accent1: #CC5019;
+    --accent2: #38A3A5;
+}
+
+body {
+    background-color: var(--primary);
+    color: var(--secondary);
+    font-family: "Open Sans";
+    text-align: center;
+}
+
+header {
+    background-color: var(--accent1);
+}
+
+nav {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+
+nav a {
+    text-align: center;
+    color: var(--secondary);
+    text-decoration: none;
+    padding: 2px;
+    width: 100%;
+}
+
+#activePage {
+    background-color: var(--accent1);
+    color: var(--secondary);
+}
+
+table {
+    margin: 0 auto;
+    background-color: grey;
+}
+
+.primary {
+    background-color: var(--primary);
+}
+
+.secondary {
+    color: var(--primary);
+    background-color: var(--secondary);
+}
+
+.accent1 {
+    background-color: var(--accent1);
+}
+
+.accent2 {
+    background-color: var(--accent2);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 0 10px;
+}
+
+.wireframe {
+    max-height: 400px;
+    max-width: 80%;
+}
+
+footer {
+    background-color: var(--accent1);
+}
