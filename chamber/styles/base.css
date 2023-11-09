@@ -1,0 +1,31 @@
+:root {
+    --primary: #131B1C;
+    --secondary: #FFFAFF;
+    --accent1: #CC5019;
+    --accent2: #38A3A5;
+}
+
+body {
+    background-color: black;
+    color: var(--secondary);
+}
+
+#hero-banner {
+    
+}
+
+#hero-img {
+    width: 100%;
+}
+
+.events-card {
+    background-color: var(--primary);
+}
+
+.weather-card {
+    background-color: var(--primary);
+}
+
+.spotlight-card {
+    background-color: var(--primary);
+}
