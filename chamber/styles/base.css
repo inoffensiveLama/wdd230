@@ -79,3 +79,54 @@ main {
     text-align: center;
     margin: 10px;
 }
+
+#menu {
+	display: block;
+	font-size: 2rem;
+	font-weight:700;
+	text-decoration: none;
+	padding: .5rem .75rem;
+    text-align: right;
+    width: 100%;
+}
+
+#menu::before {
+	content: "≡";
+    padding: 1rem;
+}
+
+#menu.open::before {
+	content: "X";
+    padding: 1rem;
+}
+
+.navigation {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	background-color: #333;
+	color: var(--secondary);
+    padding: 0;
+    width: 100%;
+}
+.navigation li {
+	display: none;
+    width: 100%;
+}
+.navigation li a {
+	display: block;
+	padding: 1rem;
+	text-decoration: none;
+	color: var(--secondary);
+    text-align: center;
+    width: 100%;
+}
+
+.open li {
+	display: block;
+}
+
+.open li a {
+	display: block;
+
+}

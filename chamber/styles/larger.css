@@ -29,4 +29,21 @@
         justify-content: space-around;
         align-items: center;
     }
+
+    #menu {
+		display: none; /* hide hamburger button */
+	}
+
+	.navigation {
+		flex-direction: row;
+	}
+
+	.navigation li {
+		display: block;
+		flex: 1 1 100%;
+	}
+
+    .navigation li a {
+        text-align: center;
+    }
 }
