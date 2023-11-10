@@ -1,8 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Open+Sans:wght@300;700&family=Oswald:wght@300&display=swap');
 
+:root.light-mode {
+    --primary: #DFF3E3;
+    --secondary: #3c3d42;
+    --accent2: #EFAF8E;
+}
+
+:root {
+    --primary: #3c3d42;
+    --secondary: #DFF3E3;
+    --accent1: #EFAF8E;
+    --accent2: #11270B;
+}
+
 body {
-    background-color: #3C3D42;
-    color: #DFF3E3;
+    background-color: var(--primary);
+    color: var(--secondary);
     font-family: "Open Sans", "Cutive Mono", Lato, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
@@ -16,7 +29,7 @@ header {
     align-items: center;
     text-align: center;
     padding: 10px;
-    background-color: #11270B;
+    background-color: var(--accent2);
 }
 
 header h1 {
@@ -36,7 +49,7 @@ nav {
 
 nav a {
     text-align: center;
-    color: #DFF3E3;
+    color: var(--secondary);
     text-decoration: none;
     padding: 2px;
     transition: all .5s ease;
@@ -45,8 +58,8 @@ nav a {
 }
 
 #activePage {
-    background-color: #EFAF8E ;
-    color: #11270B;
+    background-color: var(--accent1) ;
+    color: var(--accent2);
 }
 
 main {
@@ -55,7 +68,7 @@ main {
 
 .card {
     border-style: solid;
-    border-color: #DFF3E3;
+    border-color: var(--secondary);
     border-width: 1px;
     border-radius: 5px;
     margin: 10px;
@@ -72,18 +85,18 @@ main {
 }
 
 .card a {
-    color: #DFF3E3;
+    color: var(--secondary);
 }
 
 .card h3 {
-    background-color: #EFAF8E;
-    color: #11270B;
+    background-color: var(--accent1);
+    color: var(--accent2);
     margin: 0%;
     border-radius: 4px 4px 0 0;
 }
 
 footer {
-    background-color: #11270B;
+    background-color: var(--accent2);
     margin: 0;
     padding: 5px;
 }
@@ -137,4 +150,19 @@ footer {
 
 .open li a {
 	display: block;
+}
+
+#dark-light-mode {
+    font-size: 2rem;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+#dark-light-mode::before {
+    content: "😎";
+}
+
+#dark-light-mode.light::before {
+    content: "🌙";
 }
