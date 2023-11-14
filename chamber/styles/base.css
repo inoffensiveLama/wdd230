@@ -2,7 +2,7 @@
     --primary: #131B1C;
     --secondary: #FFFAFF;
     --accent1: #f5804e;
-    --accent2: #38A3A5;
+    --accent2: #02595a;
 }
 
 body {
@@ -41,6 +41,20 @@ nav a:hover {
 
 #hero-banner {
     max-height: 250px;
+    padding:3px;
+}
+
+#CallToAction {
+    background-color: var(--accent2);
+    color:var(--secondary);
+    border-radius: 4px;
+    padding: 10px;
+    border: 2px solid var(--secondary);
+    text-decoration: none;
+    position: relative;
+    top: -40px;
+    left: 10px;
+    margin: 0 auto;
 }
 
 #hero-img {
@@ -139,3 +153,4 @@ main {
 .discover-images {
     width: 100%;
 }
+
