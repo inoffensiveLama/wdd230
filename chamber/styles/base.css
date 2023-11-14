@@ -1,7 +1,7 @@
 :root {
     --primary: #131B1C;
     --secondary: #FFFAFF;
-    --accent1: #CC5019;
+    --accent1: #f5804e;
     --accent2: #38A3A5;
 }
 
@@ -31,11 +31,12 @@ nav a {
 
 nav a:hover {
     background-color: var(--accent1);
-
+    color: black !important;
 }
 
 #active-page {
     background-color: var(--accent1);
+    color: black;
 }
 
 #hero-banner {
@@ -128,5 +129,13 @@ main {
 
 .open li a {
 	display: block;
+}
 
+#discover-grid {
+    display: flex;
+    flex-direction: column;
+}
+
+.discover-images {
+    width: 100%;
 }

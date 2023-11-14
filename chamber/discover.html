@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Chamber of Commerce Stuttgart</title>
+        <meta name="description" content="Chamber of Commerce Stuttgart" />
+        <meta name="author" content="Jan Zander" />
+        <meta property="og:title" content="Jan Zander - WDD 230 - Web Frontend Development"/>
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://inoffensivelama.github.io/wdd230/chamber/images/stuttgart-social-image.jpeg" />
+        <meta property="og:url" content="https://inoffensivelama.github.io/wdd230/chamber/" />
+        <link rel="stylesheet" href="styles/normalize.css" />
+        <link rel="stylesheet" href="styles/base.css" />
+        <link rel="stylesheet" href="styles/larger.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+        <link rel="icon" href="favicon.ico" />
+    </head>
+    <body>
+        <header><h1>Chamber of Commerce Stuttgart</h1></header>
+        <nav>
+            <a id="menu" href="#"></a>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html" id="active-page">Discover</a></li>
+                <li><a href="index.html">Events</a></li>
+                <li><a href="index.html">Join</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section id="discover-grid">
+                <p id="last-visit"></p>
+                <section class="discover-demographic-section">
+                    <div class="demographic-cards">
+                        <h2>Population</h2>
+                        <p>609.799</p>
+                        <p>as of 31.10.2023</p>
+                    </div>
+                    <div class="demographic-cards">
+                        <h2>Area</h2>
+                        <p>207,33 km2</p>
+                    </div>
+                    <div class="demographic-cards">
+                        <h2>Population Density</h2>
+                        <p>around 3000/km2</p>
+                        <p>as of 31.10.2023</p>
+                    </div>
+                    <div class="demographic-cards">
+                        <h2>Average Income</h2>
+                        <p>37.573€ per capita</p>
+                        <p>for the year 2021</p>
+                    </div>
+                </section>
+                <section class="discover-image-section">
+                    <div class="discover-image-container">
+                        <h2>Vinyards of Stuttgart</h2>
+                        <picture class="discover-images">
+                            <img src="images/vinyards-stuttgart.webp" alt="Markthalle Stuttgart" width="100%" loading="lazy">
+                        </picture>
+                    </div>
+                    <div class="discover-image-container">
+                        <h2>The Markethall in Stuttgart</h2>
+                        <picture class="discover-images">
+                            <img src="images/markthalle-stuttgart.webp" alt="Markthalle Stuttgart" width="100%" loading="lazy">
+                        </picture>
+                    </div>
+                    <div class="discover-image-container">
+                        <h2>City Center of Stuttgart</h2>
+                        <picture class="discover-images">
+                            <img src="images/city-center-stuttgart.webp" alt="Markthalle Stuttgart" width="100%" loading="lazy">
+                        </picture>
+                    </div>
+                    <div class="discover-image-container">
+                        <h2>Stuttgart Library</h2>
+                        <picture class="discover-images">
+                            <img src="images/library-stuttgart.webp" alt="Markthalle Stuttgart" width="100%" loading="lazy">
+                        </picture>
+                    </div>
+                    <div class="discover-image-container">
+                        <h2>Mercedes Benz Museum in Stuttgart</h2>
+                        <picture class="discover-images">
+                            <img src="images/mercedes-museum.webp" alt="Markthalle Stuttgart" width="100%" loading="lazy">
+                        </picture>
+                    </div>
+                    <div class="discover-image-container">
+                        <h2>Schlossplatz in Stuttgart</h2>
+                        <picture class="discover-images">
+                            <img src="images/schlossplatz-stuttgart.webp" alt="Markthalle Stuttgart" width="100%" loading="lazy">
+                        </picture>
+                    </div>
+                </section>
+                
+                
+            </section>
+        </main>
+        <footer>
+            <p>&copy;Jan Zander | BYU Idaho | WDD 230 - Fall 2023 | email: email@email.com</p>
+            <p id="lastModified"></p>
+        </footer>
+        <script src="scripts/getDates.js"></script>
+        <script src="scripts/hamburgerMenu.js"></script>
+        <script src="scripts/discoverWelcomeMessage.js"></script>
+    </body>
+</html>
