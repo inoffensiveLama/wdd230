@@ -8,7 +8,7 @@
     <meta name="author" content="Jan Zander">
     <meta property="og:title" content="Jan Zander - WDD 230 - Web Frontend Development">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://inoffensivelama.github.io/wdd230/images/stuttgart-social-image.jpeg">
+    <meta property="og:image" content="https://inoffensivelama.github.io/wdd230/images/stuttgart-social-image.webp">
     <meta property="og:url" content="https://inoffensivelama.github.io/wdd230/">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
@@ -31,6 +31,15 @@
         </ul>
     </nav>
     <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/hero-temple-portrait.webp" media="(max-width: 400px)">
+                <img src="images/hero-temple-landscape.webp" alt="Temple Manila, Philippines" width="960px">
+            </picture>
+            <div class="hero-label">
+                <p>Manila Philippines Temple</p>
+            </div>
+        </div>
         <h2>WDD 230: Web Frontend Development</h2>
         <section class="card">
             <h3>Learning Activities</h3>
@@ -47,8 +56,9 @@
             <h3>Information</h3>
             <p>Manila, Philippines</p>
             <p>Sunny</p>
-            <p>Number of Visits <span id="numberVisits"></span></p>
+            <p>Number of Visits: <span id="numberVisits"></span></p>
         </section>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d168265.38357990567!2d9.012065836022076!3d48.77909107718352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4799db34c1ad8fd3%3A0x79d5c11c7791cfe4!2sStuttgart%2C%20Deutschland!5e0!3m2!1sde!2sph!4v1700089019865!5m2!1sde!2sph" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
     </main>
     <footer>
         <p>&copy;<span id="currentYear"></span> | Jan Zander | Manila, Philippines</p>
@@ -57,5 +67,6 @@
     <script src="scripts/getDates.js"></script>
     <script src="scripts/hamburgerMenu.js"></script>
     <script src="scripts/darkLightMode.js"></script>
+    <script src="scripts/visitCounter.js"></script>
 </body>
 </html>
