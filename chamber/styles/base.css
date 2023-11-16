@@ -154,3 +154,10 @@ main {
     width: 100%;
 }
 
+.discover-image-container img {
+    background-color: var(--secondary);
+}
+
+.discover-image-container img:hover {
+    opacity: 0.6;
+}
