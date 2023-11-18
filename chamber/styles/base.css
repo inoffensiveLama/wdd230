@@ -158,6 +158,3 @@ main {
     background-color: var(--secondary);
 }
 
-.discover-image-container img:hover {
-    opacity: 0.6;
-}
