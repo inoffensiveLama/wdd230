@@ -69,4 +69,8 @@
     #discover-images img{
         width: 100%;
     }
+
+    .discover-image-container img:hover {
+        opacity: 0.6;
+    }
 }
