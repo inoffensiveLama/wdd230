@@ -73,4 +73,23 @@
     .discover-image-container img:hover {
         opacity: 0.6;
     }
+
+    #thanksMsg {
+        grid-column: 1/3;
+        width: 100%;
+    }
+
+    .joinForm {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column: 1/3;
+    }
+        
+    .joinForm div:first-child {
+        grid-column: 1/2;
+    }
+
+    .joinForm div:last-child {
+        grid-column: 2/3;
+    }
 }
