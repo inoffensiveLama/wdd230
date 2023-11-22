@@ -1,0 +1,58 @@
+:root {
+    --primary: #3c3d42;
+    --secondary: #DFF3E3;
+    --accent1: #EFAF8E;
+    --accent2: #11270B;
+}
+
+#form{
+    grid-column: 1/3;
+    margin: 1rem;
+}
+
+form label.top{
+    display: block;
+    padding-bottom: .5rem;
+    padding-top: 1.5rem;
+}
+
+form label.top input{
+    display: block;
+    width: 86%;
+    padding: .75rem;
+    margin: 1rem .5rem;
+    background-color: var(--secondary) ;
+    color: var(--primary);
+    border-radius: 4px;
+}
+
+.submitBtn{
+    width: 97%;
+    padding: .5rem;
+    margin: 1rem .5rem;
+    background-color: var(--accent1) ;
+    color: var(--accent2);
+    border-radius: 4px;
+}
+
+#rangevalue{
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+}
+
+#thanksMessage{
+    grid-column: 1/3;
+}
+
+
+
+@media screen and (min-width: 500px) {
+    form label.top input {
+        max-width: 20rem;
+    }
+
+    .submitBtn{
+        max-width: 22rem;
+    }
+    
+}
