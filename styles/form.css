@@ -40,7 +40,7 @@ form label.top input{
     margin-bottom: 1rem;
 }
 
-#thanksMessage{
+.thanksMessage{
     grid-column: 1/3;
 }
 
