@@ -1,0 +1,23 @@
+{
+    "familyName" : "Smith",
+    "moveInDate" : "2023-01-15",
+    "numberRecords" : 3,
+    "bishopricVisit" : true,
+    "individualFamilyMembers" : [
+      {
+        "name" : "Susie",
+        "gender" : "female",
+        "birthdate" : "1990-05-12"
+      },
+      {
+        "name" : "Dan",
+        "gender" : "male",
+        "birthdate" : "1992-08-28"
+      },
+      {
+        "name" : "Luke",
+        "gender" : "male",
+        "birthdate" : "2015-03-10"
+      }
+    ]
+  }
