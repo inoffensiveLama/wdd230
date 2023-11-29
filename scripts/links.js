@@ -14,12 +14,18 @@ async function getLinks() {
 }
 
 const displayLinks = (data) => {
-    let i = 0;
-    data.forEach(week => {
+    let i = 1;
+    data.weeks.forEach(weekObj => {
         const linkParent = document.querySelector("#linkMenu");
         let listElement = document.createElement("li");
         listElement.innerHTML += `Week0${i}: `;
 
+        weekObj.links.forEach(link => {
+            let week_url = link.url;
+            let week_title = link.title;
+            listElement.innerHTML += ` | <a href=${baseURL}/${week_url}>${week_title}</a>`;
+        })
+        /*
         week.foreach(link => {
             let linkElement = document.createElement("a");
 
@@ -27,7 +33,7 @@ const displayLinks = (data) => {
             listElement.innerHTML += ` | `;
             listElement.appendChild(linkElement);
         });
-
+        */
         linkParent.appendChild(listElement);
         
         i++;
