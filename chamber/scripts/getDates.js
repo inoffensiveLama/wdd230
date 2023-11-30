@@ -3,5 +3,8 @@ const timeStampElement = document.querySelector("#timestamp");
 const currentDate = new Date();
 
 lastModifiedElement.textContent = new Date(document.lastModified);
-
-timeStampElement.textContent = currentDate;
+try{
+    timeStampElement.textContent = currentDate;
+}catch{
+    
+}
