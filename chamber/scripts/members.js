@@ -25,6 +25,7 @@ const displayMembers = (data) =>{
         websiteElement.setAttribute("href", member.website);
 
         let iconElement = document.createElement("img");
+        iconElement.setAttribute("src", (`images/${member.image}`));
 
         let membershipElement = document.createElement("p");
         membershipElement.innerHTML = member.membership_level;

@@ -5,7 +5,7 @@
         "address": "123 Innovation Street, Stuttgart, Germany",
         "phone": "+49 711 1234567",
         "website": "http://www.stuttgarttechsolutions.com",
-        "image": "stuttgart_tech_solutions.png",
+        "image": "images/tech-solutions.webp",
         "membership_level": "Gold",
         "other_information": "Leading technology solutions provider in the region."
       },
@@ -14,7 +14,7 @@
         "address": "456 Sustainability Avenue, Stuttgart, Germany",
         "phone": "+49 711 9876543",
         "website": "http://www.greenecosolutions.de",
-        "image": "greeneco_solutions.png",
+        "image": "greeneco-solutions.webp",
         "membership_level": "Silver",
         "other_information": "Promoting eco-friendly solutions for a sustainable future."
       },
@@ -23,7 +23,7 @@
         "address": "789 Innovation Plaza, Stuttgart, Germany",
         "phone": "+49 711 2345678",
         "website": "http://www.innovatehub-stuttgart.de",
-        "image": "innovatehub_gmbh.png",
+        "image": "innovatehub.webp",
         "membership_level": "Platinum",
         "other_information": "A hub for innovation, fostering collaboration among startups and enterprises."
       },
@@ -32,7 +32,7 @@
         "address": "321 Automotive Street, Stuttgart, Germany",
         "phone": "+49 711 8765432",
         "website": "http://www.automasters-germany.com",
-        "image": "automasters_gmbh.png",
+        "image": "automasters.webp",
         "membership_level": "Gold",
         "other_information": "Specializing in cutting-edge automotive solutions and technology."
       },
@@ -41,7 +41,7 @@
         "address": "567 Design Avenue, Stuttgart, Germany",
         "phone": "+49 711 3456789",
         "website": "http://www.stuttgartarchitects.com",
-        "image": "stuttgart_architects_collective.png",
+        "image": "architects-collective.webp",
         "membership_level": "Silver",
         "other_information": "A collective of innovative architects shaping the city's skyline."
       },
@@ -50,7 +50,7 @@
         "address": "987 Health Street, Stuttgart, Germany",
         "phone": "+49 711 6543210",
         "website": "http://www.biohealth-pharma.de",
-        "image": "biohealth_pharma_gmbh.png",
+        "image": "biohealth.webp",
         "membership_level": "Platinum",
         "other_information": "Leading the way in pharmaceutical and biotechnology advancements."
       },
@@ -59,7 +59,7 @@
         "address": "654 Artistic Lane, Stuttgart, Germany",
         "phone": "+49 711 1098765",
         "website": "http://www.culturalarts-stuttgart.com",
-        "image": "cultural_arts_studio.png",
+        "image": "cultural-arts.webp",
         "membership_level": "Gold",
         "other_information": "Promoting cultural diversity through various artistic expressions."
       }
