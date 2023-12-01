@@ -218,3 +218,33 @@ form label.top input:required{
 form label.top input:required:valid{
     border-left: solid green 6px;
 }
+
+#gridView {
+    font-size: x-large;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    background-color: var(--secondary);
+    color: var(--primary);
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#gridView::before {
+    content: "List View";
+    padding: 1rem;
+}
+
+#gridView.gridList::before {
+    content: "Grid View";
+    padding: 1rem;
+}
+
+.gridChange {
+    display: grid;
+    grid-template-columns: 1fr 1fr !important;
+}
+
+.gridChange img {
+    display: none;
+}
