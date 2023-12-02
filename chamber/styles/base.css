@@ -222,3 +222,8 @@ form label.top input:required:valid{
 .gridMode img {
     display: none;
 }
+
+.gridMode a {
+    
+    color: var(--secondary);
+}
