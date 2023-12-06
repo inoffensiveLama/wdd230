@@ -70,7 +70,7 @@ main {
     padding: 5px;
 }
 
-.events-card, .weather-card {
+.events-card {
     display: grid;
     grid-template-columns: 100px 1fr;
     background-color: var(--primary);
@@ -79,9 +79,16 @@ main {
     margin: 10px;
 }
 
+.weather-card {
+    background-color: var(--primary);
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+}
+
 .events-card img, .weather-card img {
     max-width: 50px;
-    padding: 30px;
+    padding: 10px;
     grid-column: 1/2;
 }
 
