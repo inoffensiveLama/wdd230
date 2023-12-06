@@ -16,7 +16,7 @@ const displaySpotlights = (members) =>{
     do {
         random1 = Math.floor(Math.random() * members.length);
     }
-    while (members[random1].membership_level !== "Gold" | members[random1].membership_level !== "Platinum"); 
+    while (members[random1].membership_level !== "Gold" || members[random1].membership_level !== "Platinum"); 
 
     let compName1 = document.createElement("h2");
     compName1.textContent = members[random1].name;
