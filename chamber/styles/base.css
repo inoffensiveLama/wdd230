@@ -237,7 +237,7 @@ form label.top input:required:valid{
 
 #chamber-banner {
     grid-column: 1/3;
-    display: flex;
+    display: none;
     justify-content: space-between;
     align-items: center;
     background-color: var(--accent2);
